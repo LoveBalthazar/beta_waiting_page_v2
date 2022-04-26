@@ -1,0 +1,152 @@
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.Jumbotron{
+    font-size: 4em;
+    font-size: 3em;
+    letter-spacing: 15px;
+    margin-bottom: 50px; 
+}
+
+#element-1{
+    z-index: 1;
+    position: relative; 
+    top: 80px;
+}
+
+#element-2{
+    z-index: 2;
+    position: relative; 
+    top:40px;
+
+} 
+
+#element-3{
+    z-index: 3;
+    position: relative; 
+}
+
+
+
+.red_{
+    color: #bb3e71; 
+    /*text-shadow: 0px 0px 10px #bb3e71, 
+    0px 0px 20px #bb3e71,
+    0px 0px 40px #bb3e71,
+    0px 0px 80px #bb3e71,
+    0px 0px 160px #bb3e71; */
+}
+
+.green_{
+    color: #69ca8e;
+  /*  text-shadow: 0px 0px 10px hsl(143, 48%, 60%), 
+    0px 0px 20px #69ca8e,
+    0px 0px 40px #69ca8e,
+    0px 0px 80px #69ca8e,
+    0px 0px 160px #69ca8e; */
+
+}
+
+.blue_{
+    color: #03bcf4; 
+   /* text-shadow: 0px 0px 10px #03bcf4, 
+    0px 0px 20px #03bcf4,
+    0px 0px 40px #03bcf4,
+    0px 0px 80px #03bcf4,
+    0px 0px 160px #03bcf4; */
+}
+
+
+@keyframes blue_a
+{
+    0%
+    {
+text-shadow: none;
+    }
+    66%
+    {
+        text-shadow: 0px 0px 10px #03bcf4, 
+        0px 0px 20px #03bcf4,
+        0px 0px 40px #03bcf4,
+        0px 0px 80px #03bcf4,
+        0px 0px 160px #03bcf4;
+    }
+    100%
+    {
+        text-shadow: 0px 0px 10px #03bcf4, 
+        0px 0px 20px #03bcf4,
+        0px 0px 40px #03bcf4,
+        0px 0px 80px #03bcf4,
+        0px 0px 160px #03bcf4;
+    }
+}
+
+
+@keyframes green_a
+{
+    0%
+    {
+        text-shadow: none;
+    }
+    33%
+    {
+        text-shadow: 0px 0px 10px hsl(143, 48%, 60%), 
+        0px 0px 20px #69ca8e,
+        0px 0px 40px #69ca8e,
+        0px 0px 80px #69ca8e,
+        0px 0px 160px #69ca8e;
+    }
+    65.9%
+    {
+        text-shadow: 0px 0px 10px hsl(143, 48%, 60%), 
+        0px 0px 20px #69ca8e,
+        0px 0px 40px #69ca8e,
+        0px 0px 80px #69ca8e,
+        0px 0px 160px #69ca8e;
+    }
+    66%
+    {
+        text-shadow: none;
+    }
+    100%
+    {
+        text-shadow: none;
+    }
+}
+
+
+@keyframes red_a
+{
+    0%
+    {
+        text-shadow: 0px 0px 10px #bb3e71, 
+        0px 0px 20px #bb3e71,
+        0px 0px 40px #bb3e71,
+        0px 0px 80px #bb3e71,
+        0px 0px 160px #bb3e71;
+    }
+    32.9%
+    {
+        text-shadow: 0px 0px 10px #bb3e71, 
+        0px 0px 20px #bb3e71,
+        0px 0px 40px #bb3e71,
+        0px 0px 80px #bb3e71,
+        0px 0px 160px #bb3e71;
+    }
+    33%
+    {
+        text-shadow: none;
+    }
+    100%
+    {
+        text-shadow: none;
+        
+    }
+}

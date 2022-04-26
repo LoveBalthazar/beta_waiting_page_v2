@@ -1,0 +1,56 @@
+@font-face{
+    font-family: Ranille;
+    src: url(./fonts/ranille/Ranille.ttf);
+}
+
+.Jumbotron{
+    font-family: Ranille;
+    font-size: 75px;
+    display:flex;
+    justify-content: center;
+}
+
+#element-1{
+    z-index: 1;
+    position: absolute; 
+}
+
+#element-2{
+    margin:10px 0 0 0px;
+    z-index: 2;
+    position: absolute; 
+} 
+
+#element-3{
+    margin:20px 0 0 0px;
+    z-index: 2;
+    position: absolute; 
+}
+
+#element-4{
+    margin:30px 0 0 0px;
+    z-index: 3; 
+    position: absolute; 
+}
+
+.black_{
+    color: black; 
+}
+.red_{
+    color: #fe0201;
+}
+
+.green_{
+    color: #01fe00;
+}
+
+.blue_{
+    color: #0001fa; 
+}
+
+
+
+
+
+
+

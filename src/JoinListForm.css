@@ -1,0 +1,89 @@
+
+/***** [WRAPPERS] ******/ 
+
+    .wrap-component{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .wrap-form{
+        display: flex; 
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+/** [TEXT ***/
+
+    .form-header{
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+
+    }
+
+/* ------------- [INPUT]  ------------- */
+
+    .input100 {
+        font-family: Ranille;
+        color: #333333;
+        line-height: 1.2;
+        font-size: 14px;
+
+        background: transparent;
+        height: 30px;
+        width: 130px;
+        border: 1px solid #e6e6e6;
+        border-radius: 10px;
+        padding: 0 20px;
+    }
+
+    input {
+        outline: none;
+        border: none;
+    }
+
+    .input100:focus{
+        border: 1px solid #01fe00;
+    }
+/* ------------- [ICON]  ------------- */
+
+    .wrap-icon{
+        margin-left: 10px;
+        height: 30px;
+        width: 30px;
+        transition: 0.5s; 
+    }
+
+    .wrap-icon:hover{
+        cursor: pointer; 
+        transform: scale(1.05);
+    }
+
+  
+    .wrap-invalid-email{
+        font-size: 12px;
+        position: relative;
+        left: -60px;
+        margin-bottom: 5px;
+        color: red;
+        display: none;
+    }
+
+    .wrap-error-text{
+        font-size: 12px;
+        position: relative;
+        left: -60px;
+        margin-bottom: 5px;
+        color: red;
+        display: none;
+    }
+    
+    .wrap-success{
+        font-size: 18px;
+        color: #01fe00;
+        display: none;
+    }
