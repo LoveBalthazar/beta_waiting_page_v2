@@ -20,13 +20,13 @@ body
 }
 
 .container{
-	transform: translateY(-150px) translateX(-20px);
+	transform: translateY(-150px);
 }
 
 
 @media only screen and (max-width: 850px){
 	.container{
-	  transform: scale(0.55) translateY(-150px) translateX(-30px);
+	  transform: scale(0.55) translateY(-150px);
 	}
 } 
 /***** [TEXT] *******/
